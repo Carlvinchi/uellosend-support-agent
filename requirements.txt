@@ -1,0 +1,6 @@
+ollama
+dotenv
+requests
+pydantic['email']
+streamlit
+fastapi[standard]
