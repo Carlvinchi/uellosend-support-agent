@@ -1,5 +1,5 @@
 ollama
-dotenv
+python-dotenv
 requests
 pydantic['email']
 streamlit

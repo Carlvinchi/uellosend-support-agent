@@ -12,17 +12,17 @@ To resolve this issue, customer support will manually verify payment and credit 
 
 The purpose of the agent is to automate the resolution process by using two tools
 
-- verify_customer_exist: This tools allows the agent to verify if a customer using the email address provided by the customer.
+- verify_customer_exist: This tools allows the agent to verify if a customer exists on record using the email address provided by the customer.
   
-- fix_credit_topup_issue: This tool allows the agent to verify the payment status and credit the customer account accordingly.
+- fix_credit_topup_issue: This tool allows the agent to verify the payment status and credit the customer account accordingly using the transaction_id provided by the customer.
 
 ## Implementation
 
 In my curiosity to build AI agent without using any agent framework. The agent was developed in pure Python using Ollama to interact with LLM, FastAPI for creating API server and Streamlit for creating the UI.
 
-I explored  how to create a FastAPI REST server that support streaming responses and client interfaces that is able to prcoess streamed responses.
+I explored  how to create a FastAPI REST server that support streaming responses and client interfaces that is able to process streamed responses.
 
-The agent can get the job done but the way it converses is not deterministic, there is room for impovement.
+The agent can get the job done but the way it converses is not deterministic, there is room for improvement.
 
 ### Project Files
 
